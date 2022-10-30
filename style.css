@@ -1,0 +1,74 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.menus{
+    background-color: #b56357;
+    padding: 3px 3%;
+}
+.menus a{
+    color: #fff;
+}
+.menus ul li a img.images{
+    width: 35px;
+    height: 35px;
+}
+.contact{
+    background-color: #b4dbc0;
+    width: 230px;
+    height: 40px;
+    border-radius: 70px;
+    position: relative;
+}
+.contact_p{
+    font-size: 10px;
+    line-height: 12px;
+    color: #b56357;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    top: -5px;
+}
+.contact_no{
+    position: relative;
+    top: -7px;
+    font-size: 14px;
+}
+.contact_img{
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+.currency{
+    display: flex;
+    align-items: center;
+}
+.currency .naira{
+    font-size: 20px;
+    padding-left: 4px;
+}
+.item2, .item3, .item4{
+    border-left: 1px solid #fff;
+}
+.account img{
+    width: 32px;
+    height: 35px;
+}
+.wrapper{
+    background-color: #b56357;
+    
+}
+.header{
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.wrapper .header .logo span{
+    color: white;
+    font-size: 25px;
+}
