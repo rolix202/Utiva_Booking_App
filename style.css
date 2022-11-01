@@ -1,6 +1,6 @@
 *{
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .menus{
@@ -59,16 +59,32 @@
     width: 32px;
     height: 35px;
 }
-.wrapper{
-    background-color: #b56357;
-    
+.jumbotron{
+    background: url(./images/hotel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-position: center center;
+    padding: 0;
+    text-align: center;
 }
-.header{
-    width: 95%;
-    margin: 0 auto;
-    padding: 15px;
+.jumbotron .overlay{
+    background-color: rgba(51, 51, 51, 0.5);
+    height: 100%;
+    width: 100%;
 }
-.wrapper .header .logo span{
-    color: white;
-    font-size: 25px;
+.jumbotron .inner_content{
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    top: 200px;
+}
+.jumbotron .inner_content h1{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.jumbotron .inner_content h2{
+    font-weight: 400;
+    font-size: 21px;
 }
