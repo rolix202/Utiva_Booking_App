@@ -34,6 +34,7 @@
     position: relative;
     top: -7px;
     font-size: 14px;
+    color: #fff;
 }
 .contact_img{
     border-radius: 100%;
@@ -87,4 +88,43 @@
 .jumbotron .inner_content h2{
     font-weight: 400;
     font-size: 21px;
+}
+.search, .calender{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+.search input, .calender input{
+    text-indent: 25px;
+    height: 45px;
+}
+.search input:focus, .calender input:focus{
+    box-shadow: none;
+    border: 2px solid #b56357;
+}
+.search i, .calender i{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+.button{
+    position: absolute;
+}
+.btnss{
+    height: 45px;
+    background-color: #b56357;
+    color: #fff;
+}
+
+.search_box{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -50px;
+}
+@@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 100%;
+    /* width: auto; */
+    padding: 0;
 }
