@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,12 @@
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg menus navbar-dark">
         <a class="navbar-brand" href="#">BookingApp.ng</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle Navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle"
+            aria-controls="navToggle" aria-expanded="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navToggle">
@@ -22,7 +25,7 @@
                         <img class="images" src="./images/WhatsApp.svg.png" alt="">
                         <!-- <i class="fab fa-whatsapp"></i> -->
                         <!-- <i class="fas fa-user-circle"></i> -->
-                       
+
                         <!--&#8358 -->
                     </a>
                 </li>
@@ -40,64 +43,86 @@
                         <div class="currency">
                             <img class="mt-1" src="./images/Nigeria_Flag.svg.png" alt="" height="25px" width="35px">
                             <span class="naira">&#x20A6</span>
-                        </div>    
+                        </div>
                     </a>
                 </li>
                 <li class="nav-item item4 px-3">
-                        <a class="nav-link" href="#">
-                            <div class="account">
-                                <img src="./images/account_img.svg" alt="">
-                                <span>Account</span>
-                            </div>
-                        </a>
+                    <a class="nav-link" href="#">
+                        <div class="account">
+                            <img src="./images/account_img.svg" alt="">
+                            <span>Account</span>
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
-       
+
     </nav>
     <div class="jumbotron section_1">
         <div class="overlay">
-            <div class=" container inner_content">
+            <div class="container inner_content">
                 <h1>Find and book hotels in Enugu State.</h1>
                 <h2>Search through 13,101 hotels in Enugu State</h2>
             </div>
         </div>
-        <div class="container wrapper mb-5">
+        <div class="container wrapper mb-5 bg-success">
             <div class="search_box p-2">
                 <form action="">
                     <div class="row search_bar">
-                        <div class="col-md-6 py-4 pr-1 pl-5">
+                        <div class="col-md-6 col-sm-9 py-4 pr-1 pl-5">
                             <div class="search">
                                 <i class="fas fa-search"></i>
-                            <input type="text" class="form-control" placeholder="Search for a particular hotel">
+                                <input type="text" class="form-control" placeholder="Search for a particular hotel">
                             </div>
                         </div>
-                        <div class="col-md-4 py-4 px-1">
+                        <div class="col-md-4 d-sm-none d-md-block py-4 px-1">
                             <div class="calender">
                                 <i class="far fa-calendar-alt"></i>
                                 <input type="text" class="form-control" placeholder="" name="" id="">
                             </div>
                         </div>
-                        <div class="col-md-2 py-4 pl-1 pr-5">
+                        <div class="col-md-2 col-sm-3 py-4 pl-1 pr-5">
                             <div class="button">
                                 <button class="btn btnss btn-large px-4">Find Hotels</button>
                             </div>
                         </div>
                     </div>
-                    
+
                 </form>
             </div>
-            
-           
-        </div>  
+
+
+        </div>
         <h2>Hotel Lists</h2>
         <p>Loading <img src="./images/loading.svg"> </p>
         <h2>Frequenty Asked questions</h2>
         <p style="font-size:30px"><a href="./hotels_forms.html">Click to view </a> </p>
+
+        <div class="container bg-success yup">
+            <div class="testing bg-info">
+                <div class="grid_1 mt-3">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="form-control" placeholder="Search for a particular hotel">
+                </div>
+                <div class="grid_2 mt-3">
+                    <i class="far fa-calendar-alt"></i>
+                    <input type="text" class="form-control" placeholder="" name="" id="">
+                </div>
+                <div class="grid_3 mt-3">
+
+                    <button class="btn btnss btn-large btn-block">Find Hotels</button>
+
+                </div>
+            </div>
+        </div>
+        <h1>Hello World</h1>
+
+
     </div>
-    
+
     <script src="./bootstrap/js/jquery.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>
 </body>
+
 </html>

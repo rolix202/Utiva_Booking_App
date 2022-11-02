@@ -101,7 +101,7 @@
     box-shadow: none;
     border: 2px solid #b56357;
 }
-.search i, .calender i{
+.search i, .calender i {
     position: absolute;
     left: 12px;
     top: 15px;
@@ -110,7 +110,7 @@
     position: absolute;
 }
 .btnss{
-    height: 45px;
+    /* height: 45px; */
     background-color: #b56357;
     color: #fff;
 }
@@ -122,11 +122,68 @@
     position: relative;
     top: -50px;
 }
-/* @media (min-width: 992px){
-    .container, .container-lg, .container-md, .container-sm {
+/* @media (max-width: 1200px){
+    .inner_content {
         max-width: 100%;
-        width: auto; 
-        padding: 0px;
     }
 } */
+@media screen and (min-width: 768px){
+    .wrapper, .yup {
+        width: auto;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    .wrapper {
+        width: 1050px;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .wrapper{
+        max-width: 100%;
+    }
+}
+.testing{
+    position: relative;
+    display: grid;
+    grid-template-columns: 3fr repeat(1,2fr) 1fr;
+    padding: 30px 40px;
+    column-gap:10px;
+    align-items: center;
+}
+.grid_1, .grid_2{
+    position: relative;
+}
+.grid_1 i, .grid_2 i, .grid_3 i{
+    position: absolute;
+    left: 12px;
+    top: 11px;
+}
+.grid_1 input{
+    text-indent: 25px;
+}
+@media screen and (min-width: 768px){
+    .yup {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    .yup {
+        width: 1050px;
+    } 
+}
+@media screen and (max-width: 767px){
+    .grid_2 {
+        display: none;
+    }
+    .yup{
+        max-width: 100%;
+        padding: 0;
+    }
+    .testing{
+        grid-template-columns: 60% 40%;
+    }
+}
 
