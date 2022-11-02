@@ -89,28 +89,14 @@
     font-weight: 400;
     font-size: 21px;
 }
-.search, .calender{
-    position: relative;
-    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
-}
-.search input, .calender input{
-    text-indent: 25px;
-    height: 45px;
-}
-.search input:focus, .calender input:focus{
+
+
+.grid_1 input:focus, .grid_2 input:focus{
     box-shadow: none;
-    border: 2px solid #b56357;
+    border: 1px solid #b56357;
 }
-.search i, .calender i {
-    position: absolute;
-    left: 12px;
-    top: 15px;
-}
-.button{
-    position: absolute;
-}
+
 .btnss{
-    /* height: 45px; */
     background-color: #b56357;
     color: #fff;
 }
@@ -122,33 +108,11 @@
     position: relative;
     top: -50px;
 }
-/* @media (max-width: 1200px){
-    .inner_content {
-        max-width: 100%;
-    }
-} */
-@media screen and (min-width: 768px){
-    .wrapper, .yup {
-        width: auto;
-        padding: 0;
-    }
-}
-@media screen and (min-width: 1200px){
-    .wrapper {
-        width: 1050px;
-    }
-    
-}
-@media screen and (max-width: 767px){
-    .wrapper{
-        max-width: 100%;
-    }
-}
 .testing{
     position: relative;
     display: grid;
     grid-template-columns: 3fr repeat(1,2fr) 1fr;
-    padding: 30px 40px;
+    padding: 40px 40px;
     column-gap:10px;
     align-items: center;
 }
