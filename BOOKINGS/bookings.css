@@ -1,167 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.menus{
-    background-color: #b56357;
-    padding: 3px 3%;
-}
-.menus a{
-    color: #fff;
-}
-.menus ul li a img.images{
-    width: 35px;
-    height: 35px;
-}
-.contact{
-    background-color: #b4dbc0;
-    width: 230px;
-    height: 40px;
-    border-radius: 70px;
-    position: relative;
-}
-.contact_p{
-    font-size: 10px;
-    line-height: 12px;
-    color: #b56357;
-    font-weight: bold;
-    position: relative;
-    left: 15px;
-    top: -5px;
-}
-.contact_no{
-    position: relative;
-    top: -7px;
-    font-size: 14px;
-    color: #fff;
-}
-.contact_img{
-    border-radius: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 40px;
-    height: 40px;
-}
-.currency{
-    display: flex;
-    align-items: center;
-}
-.currency .naira{
-    font-size: 20px;
-    padding-left: 4px;
-}
-.item2, .item3, .item4{
-    border-left: 1px solid #fff;
-}
-.account img{
-    width: 32px;
-    height: 35px;
-}
-.jumbotron{
-    background: url(./images/hotel.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 75vh;
-    background-position: center center;
-    padding: 0;
-    text-align: center;
-}
-.jumbotron .overlay{
-    background-color: rgba(51, 51, 51, 0.5);
-    height: 100%;
-    width: 100%;
-}
-.jumbotron .inner_content{
-    color: #fff;
-    line-height: 50px;
-    position: relative;
-    top: 200px;
-}
-.jumbotron .inner_content h1{
-    font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-.jumbotron .inner_content h2{
-    font-weight: 400;
-    font-size: 21px;
-}
-
-
-.grid_1 input:focus, .grid_2 input:focus{
-    box-shadow: none;
-    border: 1px solid #b56357;
-}
-
-.btnss{
-    background-color: #b56357;
-    color: #fff;
-}
-
-.search_box{
-    background-color: #fff;
-    border: 1px solid #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-    top: -50px;
-}
-.testing{
-    position: relative;
-    display: grid;
-    grid-template-columns: 3fr repeat(1,2fr) 1fr;
-    padding: 40px 40px;
-    column-gap:10px;
-    align-items: center;
-}
-.grid_1, .grid_2{
-    position: relative;
-}
-.grid_1 i, .grid_2 i, .grid_3 i{
-    position: absolute;
-    left: 12px;
-    top: 11px;
-}
-.grid_1 input{
-    text-indent: 25px;
-}
-@media screen and (min-width: 768px){
-    .yup {
-        max-width: 100%;
-        padding: 0;
-    }
-}
-@media screen and (min-width: 1200px){
-    .yup {
-        width: 1050px;
-    } 
-}
-@media screen and (max-width: 767px){
-    .grid_2 {
-        display: none;
-    }
-    .yup{
-        max-width: 100%;
-        padding: 0;
-    }
-    .testing{
-        grid-template-columns: 60% 40%;
-    }
-}
-.hotel_listings{
-    position: relative;
-    top: 80px;
-    
-}
-
-/*********New Section***********/
-.newsletter_section{
-    position: relative;
-    padding-bottom: 30px;
-    top: 100px;
-}
 .top {
     justify-content: center;
     align-items: center;
@@ -170,13 +6,13 @@
     padding: 1rem 1rem;
 }
 
-.newsletter_section h2 {
-    /* justify-content: center;
-    align-items: center; */
+h2 {
+    justify-content: center;
+    align-items: center;
     margin-left: 35%;
 }
 
-.newsletter_section p {
+p {
     justify-content: center;
     align-items: center;
     margin-left: 34%;
@@ -214,13 +50,13 @@
         padding: 1rem 1rem;
     }
 
-    .newsletter_section h2 {
+    h2 {
         justify-content: center;
         align-items: center;
         margin-left: 10%;
     }
 
-    .newsletter_section p {
+    p {
         justify-content: center;
         align-items: center;
         margin-left: 10%;
@@ -306,7 +142,7 @@
     font-size: large;
 }
 
-.newsletter_section h4 {
+h4 {
     margin-left: 32.5%;
     font-size: medium;
     font-weight: lighter;
@@ -377,7 +213,7 @@
         font-size: large;
     }
 
-    .newsletter_section h4 {
+    h4 {
         margin-left: 10%;
         font-size: medium;
         font-weight: lighter;
