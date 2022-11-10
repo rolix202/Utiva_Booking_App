@@ -153,6 +153,7 @@
 .hotel_listings{
     position: relative;
     top: 80px;
+    clear: both;
     
 }
 
@@ -392,4 +393,135 @@
         border-radius: 2px;
         color: whitesmoke;
     }
+}
+
+.suggested_destinations{
+    /* width:auto;
+    margin:auto; */
+    padding: 0px;
+    margin-top: 140px;
+}
+/* body{
+ width: 100%; 
+ margin: auto;
+}  */
+
+  .header{
+      
+    text-align:center;
+    font-size:20px;
+    font-family:impact;
+
+  }  
+ .sub-header{
+    text-align: center;
+    font-size: 18px;
+    font-family:calibri;
+    padding-top:-5px;
+
+  }  
+
+
+.tiny-divider{
+    font-family:algerian; 
+    color:orange;
+    text-align:center;
+
+  } 
+
+  .suggested_city{
+    /* float: left; */
+    height: 100px;
+    /* width:20.6%; */
+    text-align: center;
+    text-decoration: none;
+    /* display: block; */
+    margin:1%;
+    padding:10px;
+    border: 2px solid #B56357;
+
+}
+div.suggested_city:hover{
+    background-color: #B56357;
+}
+
+  .hotels a {
+    color: rgb(19, 53, 167);
+    text-align: center;
+    text-decoration: none;
+    
+ }
+
+  
+.hotels p{
+
+    color:rgb(10, 8, 3);
+    font-family:book antiqua;
+    margin-top: -10px;
+}
+.section2{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.hotels_in_enugu{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* margin:1%; */
+  /* margin:10px; */
+  /* width: 28%; */
+  /* margin: 0 auto; */
+  padding: 15px;
+  cursor: pointer;
+  
+  
+}
+.hotels_in_enugu .image{
+    border: 2px solid hsla(44, 96%, 30%, 0.89);   
+}
+.hotels_in_enugu img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+}
+.hotels_in_enugu:hover{
+    transform: scale(110%);
+    transition: 0.2s;
+}
+/* div.image:hover{
+  background-color: #B56357;
+  opacity: 0.1;  
+} */
+
+/* .image{
+border: 5px solid #000;
+width: 100%;
+
+} */
+p.one {
+    color: rgb(23, 88, 163);
+    /* margin-top: 10px; */
+   font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;  
+}
+/* p.one:hover{
+    color: #000;
+} */
+
+.image_border .location{
+    margin-top: -15px;
+}
+/* div.image_border:hover{
+
+    background-color: #B56357;
+} */
+h2.heading:hover{
+color: #000;
+
+}
+h2.heading{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
 }
