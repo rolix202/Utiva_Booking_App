@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking App | Utiva Project</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/forms_style.css">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
                     </a>
                 </li>
                 <li class="nav-item item3 px-3">
-                    <a class="nav-link" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt">
+                    <a class="nav-link" href="#">
                         <div class="currency">
                             <img class="mt-1" src="./images/Nigeria_Flag.svg.png" alt="" height="25px" width="35px">
                             <span class="naira">&#x20A6</span>
@@ -75,8 +76,8 @@
                             <input type="text" class="form-control" placeholder="Search for a particular hotel">
                         </div>
                         <div class="grid_2">
-                            <i class="far fa-calendar-alt"></i>
-                            <input type="text" class="form-control" placeholder="" name="" id="">
+                            <!-- <i class="far fa-calendar-alt"></i> -->
+                            <input type="date" class="form-control" placeholder="" value="" id="">
                         </div>
                         <div class="grid_3">
 
@@ -178,17 +179,25 @@
             <span class="hotels_in_enugu">
                 <div class="image">
                     <img src="https://i.pinimg.com/originals/64/96/d2/6496d25113f98b94879dda692021c174.jpg"
-                        alt="Nike Lake Resort ";>
+                        alt="Nike Lake Resort " ;>
+                    <h3 class="name_hotel">Nike Lake Resort
+                        <span class="d-block loca">Location: New Heaven</span>
+                    </h3>
 
-                        <div class="image_border">
-                            <a href="#">
-        
-                                <p class="one">Nike Lake Resort</p>
-                            </a>
-                            <p class="location">Location: Enugu</p>
-                        </div>
+
+                    <div class="price pb-2">
+                        <p class="w-50">
+                            <span class="d-block font-weight-bold">&#x20A6;50,000</span>
+                            <span class="d-block per_night">Average price per night</span>
+                        </p>
+                        <a type="button" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt"
+                            class="btn">Book Now</a>
+
+
+                    </div>
+
                 </div>
-                
+
             </span>
 
             <span class="hotels_in_enugu">
@@ -196,15 +205,24 @@
                     <img src="https://i.pinimg.com/originals/50/a9/bd/50a9bd956b2f50df6f512632bfb98c37.jpg"
                         alt="Golden Royale Hotel">
 
-                        <div class="image_border">
-                            <a href="#">
-        
-                                <p class="one">Golden Royale Hotel</p>
-                            </a>
-                            <p class="location">Location: Enugu</p>
-                        </div>
+
+                    <h3 class="name_hotel">Golden Royale Hotel
+                        <span class="d-block loca">Location: Bricks Estate</span>
+                    </h3>
+
+
+                    <div class="price pb-2">
+                        <p class="w-50">
+                            <span class="d-block font-weight-bold">&#x20A6;99,000</span>
+                            <span class="d-block per_night">Average price per night</span>
+                        </p>
+                        <a type="button" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt"
+                            class="btn">Book Now</a>
+
+
+                    </div>
                 </div>
-                
+
             </span>
 
             <span class="hotels_in_enugu">
@@ -212,102 +230,219 @@
                     <img src="https://i.pinimg.com/originals/6d/29/ec/6d29ec0b1e71c4ef62fef1585bd3a12d.jpg"
                         alt="Maxbe Continental">
 
-                        <div class="image_border">
-                            <a href="#">
-        
-                                <p class="one">Maxbe Continental</p>
-                            </a>
-                            <p class="location">Location: Enugu</p>
-                        </div>
+                    <h3 class="name_hotel">Maxbe Continental
+                        <span class="d-block loca">Location: Emene</span>
+                    </h3>
+
+
+                    <div class="price pb-2">
+                        <p class="w-50">
+                            <span class="d-block font-weight-bold">&#x20A6;35,000</span>
+                            <span class="d-block per_night">Average price per night</span>
+                        </p>
+                        <a type="button" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt"
+                            class="btn">Book Now</a>
+                    </div>
                 </div>
-              
+
             </span>
 
             <span class="hotels_in_enugu">
                 <div class="image">
                     <img src="https://i.pinimg.com/originals/4e/30/6d/4e306d192cb0f444227edb2176f1442b.jpg"
-                        alt="Hotel Sunshine" >
+                        alt="Hotel Sunshine">
 
-                        <div class="image_border">
-                            <a href="#">
-        
-                                <p class="one">Hotel Sunshine</p>
-                            </a>
-                            <p class="location">Location: Enugu</p>
-                        </div>
+                    <h3 class="name_hotel">Hotel Sunshine
+                        <span class="d-block loca">Location: Abakpa Layout</span>
+                    </h3>
+
+
+                    <div class="price pb-2">
+                        <p class="w-50">
+                            <span class="d-block font-weight-bold">&#x20A6;115,000</span>
+                            <span class="d-block per_night">Average price per night</span>
+                        </p>
+                        <a type="button" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt"
+                            class="btn">Book Now</a>
+                    </div>
                 </div>
-               
+
             </span>
 
             <span class="hotels_in_enugu">
                 <div class="image">
                     <img src="https://i.pinimg.com/736x/cf/0d/8d/cf0d8def50623893766565757a8ff1a7.jpg" ;
-                        alt="Roban Hotels" >
+                        alt="Roban Hotels">
 
-                        <div class="image_border">
-                            <a href="#">
-        
-                                <p class="one">Roban Hotels</p>
-                            </a>
-                            <p class="location">Location: Enugu</p>
-                        </div>
+                    <h3 class="name_hotel">Roban Hotels
+                        <span class="d-block loca">Location: Agbani</span>
+                    </h3>
+
+
+                    <div class="price pb-2">
+                        <p class="w-50">
+                            <span class="d-block font-weight-bold">&#x20A6;25,000</span>
+                            <span class="d-block per_night">Average price per night</span>
+                        </p>
+                        <a type="button" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt"
+                            class="btn">Book Now</a>
+                    </div>
                 </div>
-                
+
             </span>
 
             <span class="hotels_in_enugu">
                 <div class="image">
                     <img src="https://i.pinimg.com/originals/64/cd/30/64cd30689b2e9e2ec52539d1875dba34.jpg"
-                        alt="Top Rank Hotels" >
+                        alt="Top Rank Hotels">
 
-                        <div class="image_border">
-                            <a href="#">
-        
-                                <p class="one">Top Rank Hotels</p>
-                            </a>
-                            <p class="location">Location: Enugu</p>
-                        </div>
+
+                    <h3 class="name_hotel">Grace Manor
+                        <span class="d-block loca">Location: Nsukka</span>
+                    </h3>
+
+
+                    <div class="price pb-2">
+                        <p class="w-50">
+                            <span class="d-block font-weight-bold">&#x20A6;80,000</span>
+                            <span class="d-block per_night">Average price per night</span>
+                        </p>
+                        <a type="button" href="https://sandbox-flw-web-v3.herokuapp.com/pay/oikfoqimmcxt"
+                            class="btn">Book Now</a>
+                    </div>
                 </div>
-               
+
             </span>
         </div>
     </section>
 
-    <div class="hotel_listings">
 
-        <h2 class="text-center">Frequenty Asked questions</h2>
-        <p class="text-center" style="font-size:30px"><a href="./hotels_forms.html">Click to view </a> </p>
+    <div class="hotel_listings">
+        <div class="container">
+            <div class="conts1">
+                <div>
+                    <i class="fa fa-tag "></i>
+                    <strong><a href="#">We Price Match</a> </strong>
+                    <p>You can claim a Refund for the difference if you happen to find your reservation cheaper on
+                        another site. </p>
+                </div>
+            </div>
+
+
+            <form class="container">
+                <div class="conts2">
+                    <p class="instru"><strong>Driving instruction to The Luxury Hotels </strong></p>
+                    <p>Find the quickest route to this hotel's address. we will send you the direction to The Cocoon
+                        Luxury Suite.
+                        Just enter your email address or phone number below:</p>
+
+                    <div class="form-group form1">
+                        <input type="email" placeholder="E-mail Address" />
+                        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                    </div>
+
+
+                    <div class=" form-group form2">
+                        <input type="tel" placeholder="Phone Number" />
+                        <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+                        <input type="submit" value="send" class="send" />
+                    </div>
+                </div>
+            </form>
+            <br /> <br />
+
+
+            <div class="container ">
+                <p class="instru"> <strong>Frequently asked question anout The Cocoon Luxury Suite, Ogudu</strong></p>
+
+            </div> <br /> <br />
+
+            <form class="container">
+                <div class="row">
+                    <div class="const3 col-sm-3">
+                        <div>
+                            <p style="font-size: 16px;"> <b>Ask a question about The Cocoon Luxury Suites, Ogudu</b></p>
+
+                            <p>Typically responds within 24hours</p>
+                        </div>
+
+                        <div class=" form-group form3">
+                            <input type="text" placeholder="Name" class="form-control" />
+                            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+
+                        <div class=" form-group form3">
+                            <input type="email" placeholder="Email Address" class="form-control" />
+                            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+
+                        <div class=" form-group form3">
+                            <input type="tel" placeholder="Phone Number optional" class="form-control" />
+                            <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+
+                        <div class=" form-group form4">
+                            <input type="text" placeholder="Message" class="form-control" />
+
+                        </div>
+                        <input type="submit" value="submit" class=" submit" />
+                    </div>
+
+                    <div class="col-sm-8 div1">
+                        <p>Do you need to know anything about The Cocoon Luxury Suites, Ogudu?</p>
+                        <p>Be the first to ask a question</p>
+                    </div>
+                </div>
+            </form>
+            <br /> <br />
+
+
+        </div>
+
+
+        <div class="newsletter_section">
+            <div class="top">
+                <h2>Special Hotel Deals and Offers </h2>
+                <p>Enter your email address to recieve secret hotel deals</p>
+
+                <div class="hahaha">
+                    <form action="" class="form-inline pl-5">
+                        <input type="text" class="form-control w-75 mr-3" placeholder="Enter your email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="supercont">
+                <h3>We've been featured in</h3>
+                <hr class="line bg-primary">
+                <div class="cont1 w-75 mx-auto">
+                    <a href=""><img src="/images/newsletter/bbc img.jpg" alt="" class="mg1"></a>
+                    <a href=""><img src="/images/newsletter/forbes g.png" alt="" class="mg2"></a>
+                    <a href=""><img src="/images/newsletter/Newsweek img.png" alt="" class="mg3"></a>
+                    <a href=""><img src="/images/newsletter/web imgg.png" alt="" class="mg4"></a>
+
+                    <div class="cont2 mt-5">
+                        <p><b>Get More Bookings for Your Hotel</b></p>
+                        <p style="font-size: 20px;">Find out why over 13,098 hotel managers trust Hotels.ng</p>
+                        <div class="okay">
+                            <button type="submit" class="btn btn-primary">Add Your Hotel</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <hr class="end">
+                <p>Copyright © 2022 Hotel Booking Limited All Rights Reserved <b>(TEAM ENUGU TECH BOOKING APP)</b></p>
+            </div>
+        </div>
+
+       
     </div>
 
 
-    <div class="newsletter_section">
-        <div class="top">
-            <h2>Special Hotel Deals and Offers </h2>
-            <p>Enter your email address to recieve secret hotel deals</p>
-            <form action="" id="inp">
-                <input type="text" placeholder="Enter your email address">
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-        <div class="supercont">
-            <h3>We've been featured in</h3><br><br><br>
-            <div class="cont1">
-                <a href=""><img src="/images/newsletter/bbc img.jpg" alt="" class="mg1"></a>
-                <a href=""><img src="/images/newsletter/forbes g.png" alt="" class="mg2"></a>
-                <a href=""><img src="/images/newsletter/Newsweek img.png" alt="" class="mg3"></a>
-                <a href=""><img src="/images/newsletter/web imgg.png" alt="" class="mg4"></a>
     
-            </div><br><br><br>
-            <div class="cont2">
-                <p><b>Get More Bookings for Your Hotel</b></p>
-                <h4>Find out why over 13,098 hotel managers trust Hotels.ng</h4>
-                <button type="submit">Add Your Hotel</button>
-            </div>
-        </div>
-    </div> -->
-
-
-
     <script src="./bootstrap/js/jquery.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>

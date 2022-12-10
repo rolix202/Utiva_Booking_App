@@ -1,14 +1,20 @@
 div i{
     color: blueviolet;
   }  
-  .cont1 {
+  .conts1 {
     height: 100px;
     margin: 50px 0 0 0;
     background-color: #f5f5f5;
-    text-align: left;
+    padding: 20px;
 
   }
+  .conts1 a{
+    font-size: 20px;
+  }
 
+  /* .cont1 p{
+    text-align: left;
+  } */
 
   .form1 input[type=email] {
     padding: 3px 0 3px 40px ;
@@ -61,8 +67,11 @@ div i{
   
 
   
-  .cont2 {
-     margin-top: 25px; 
+  .conts2 {
+     margin-top: 50px; 
+}
+.instru{
+  font-size: 30px;
 }
 
 .send {
@@ -125,13 +134,13 @@ div i{
     height: 420px;
 
 } 
-.cont3 b {
+.conts3 b {
     color:#B56357;
     font-size: 12px;
 }
-.cont3 p {
+/* .conts3 p {
     font-size: 12px;
-}
+} */
 .div1 {
     text-align: center;
 }
